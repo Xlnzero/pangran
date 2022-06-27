@@ -4,32 +4,77 @@
 <meta charset="utf-8">
 	<link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="galery.css">
+	<link rel="stylesheet" href="adaptive.css">
+	<link rel="icon" href="Pictures/icon.png">
+	<link rel="stylesheet" href="preloader.css">
+	
     <script type="text/javascript" src="galery.js"></script>
     <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
-<title>PANGRAN</title>
-	<link rel="icon" href="Pictures/icon.svg" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>PANGRAN</title>
 </head>
     <body>
+		
+
+
+
+<script>document.body.style.overflow = 'hidden'</script>
+ <div class="preloader">
+	  <div class="text_preloader">
+		  	<div><p>PanGran</p></div>
+		  	<div></div>
+			<div><p>Loading, please wait</p></div>
+	  
+	  
+	  
+	  </div>
+    <div class="preloader__row">
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+
+    </div>
+  </div>
+		
 <div class="header">
-		<div><p><a href="#" class="header_a" >ИЗДЕЛИЯ ИЗ КАМНЯ</a></p></div>
-		<div><logo></logo></div>
+		<div><p><a class="header_a" style="cursor: default;">ИЗДЕЛИЯ ИЗ КАМНЯ</a></p></div>
+	
+		<div>
+			<script>function scr00(){var a1 = document.getElementById('for_script').scrollHeight;window.scrollTo(0, 0);}</script>  
+
+			<a style="cursor: pointer;" onclick="scr00()"><logo></logo></a></div>
 		<div>
             
 <div class="button">
 <script>function scr1(){var a1 = document.getElementById('for_script').scrollHeight;window.scrollTo(0, a1);}</script>  
 <a class="button_a" style="cursor: pointer;" onclick="scr1()"><p>О компании</p></a>
 </div>
+			
+<div class="button_adapt" >
+<script>function scr1(){var a1 = document.getElementById('for_script').scrollHeight;window.scrollTo(0, a1);}</script>  
+<a class="button_a" style="cursor: pointer;" onclick="scr1()"><p>О компании</p></a>
+</div>			
             
 <div class="button" >
 <script>function scr2(){var a1 = document.getElementById('for_script').scrollHeight;window.scrollTo(0, a1*2);}</script>  
 <a class="button_a" style="cursor: pointer;" onclick="scr2()"><p>Наши работы</p></a>
 </div>
+			
+<div class="button_adapt" >
+<script>function scr2(){var a1 = document.getElementById('for_script').scrollHeight;window.scrollTo(0, a1*2);}</script>  
+<a class="button_a" style="cursor: pointer;" onclick="scr2()"><p>Наши работы</p></a>
+</div>			
             
-<div class="button button_none"></div>
+<div class="button_none"></div>
 
             
 <div class="button">
-<script>function scr3(){var a1 = document.getElementById('for_script').scrollHeight;window.scrollTo(0, a1*8);}</script>  
+<script>function scr3(){var a1 = document.getElementById('for_script').scrollHeight;window.scrollTo(0, a1*15);}</script>  
+<a class="button_a" style="cursor: pointer;" onclick="scr3()"><p>Контакты</p></a>         
+</div>
+
+<div class="button_adapt">
+<script>function scr3(){var a1 = document.getElementById('for_script').scrollHeight;window.scrollTo(0, a1*15);}</script>  
 <a class="button_a" style="cursor: pointer;" onclick="scr3()"><p>Контакты</p></a>         
 </div>
 		
@@ -94,6 +139,7 @@
 					
 					
 					
+					
 			</div></div></div>
 		
 		
@@ -103,10 +149,6 @@
 			<div class="in_main_invisible_Services">
 				<div class="Services_text_about">
 
-					
-					
-					
-					
 					
 					
 					
@@ -127,38 +169,39 @@
 		
 		
 <div class="slide_3">
-	<div class="heading"><p>Наши работы</p></div>
+	<div class="heading"><p>Одиночные памятники</p>
+	</div>
 	
 
-<div class="g_gal_bol g_gal_bol1"><img src="Gallery/1.jpg" alt=""><a onClick="funnext1()" class="cssbox_next"><img src="button/next.svg" style="width:7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg" style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol1"><img src="Gallery/1/01.jpg" alt=""><a onClick="funnext1()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2"><img src="Gallery/1/02.jpg" alt=""><a onClick="funprev2()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol3"><img src="Gallery/1/03.jpg" alt=""><a onClick="funprev3()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext3()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol4"><img src="Gallery/1/04.jpg" alt=""><a onClick="funprev4()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext4()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol5"><img src="Gallery/1/05.jpg" alt=""><a onClick="funprev5()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext5()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol6"><img src="Gallery/1/06.jpg" alt=""><a onClick="funprev6()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext6()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol7"><img src="Gallery/1/07.jpg" alt=""><a onClick="funprev7()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext7()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol8"><img src="Gallery/1/08.jpg" alt=""><a onClick="funprev8()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext8()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol9"><img src="Gallery/1/09.jpg" alt=""><a onClick="funprev9()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext9()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol10"><img src="Gallery/1/10.jpg" alt=""><a onClick="funprev10()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext10()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol11"><img src="Gallery/1/11.jpg" alt=""><a onClick="funprev11()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext11()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol12"><img src="Gallery/1/12.jpg" alt=""><a onClick="funprev12()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext12()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol13"><img src="Gallery/1/13.jpg" alt=""><a onClick="funprev13()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext13()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol14"><img src="Gallery/1/14.jpg" alt=""><a onClick="funprev14()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext14()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol15"><img src="Gallery/1/15.jpg" alt=""><a onClick="funprev15()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext15()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol16"><img src="Gallery/1/16.jpg" alt=""><a onClick="funprev16()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext16()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol17"><img src="Gallery/1/17.jpg" alt=""><a onClick="funprev17()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext17()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol18"><img src="Gallery/1/18.jpg" alt=""><a onClick="funprev18()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext18()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol19"><img src="Gallery/1/19.jpg" alt=""><a onClick="funprev19()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext19()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol20"><img src="Gallery/1/20.jpg" alt=""><a onClick="funprev20()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext20()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol21"><img src="Gallery/1/21.jpg" alt=""><a onClick="funprev21()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext21()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol22"><img src="Gallery/1/22.jpg" alt=""><a onClick="funprev22()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext22()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol23"><img src="Gallery/1/23.jpg" alt=""><a onClick="funprev23()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext23()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol24"><img src="Gallery/1/24.jpg" alt=""><a onClick="funprev24()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
 
-<div class="g_gal_bol g_gal_bol2"><img src="Gallery/2.jpg" alt=""><a onClick="funprev2()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol3"><img src="Gallery/3.jpg" alt=""><a onClick="funprev3()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext3()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol4"><img src="Gallery/4.jpg" alt=""><a onClick="funprev4()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext4()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol5"><img src="Gallery/5.jpg" alt=""><a onClick="funprev5()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext5()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol6"><img src="Gallery/6.jpg" alt=""><a onClick="funprev6()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext6()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol7"><img src="Gallery/7.jpg" alt=""><a onClick="funprev7()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext7()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol8"><img src="Gallery/8.jpg" alt=""><a onClick="funprev8()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext8()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol9"><img src="Gallery/9.jpg" alt=""><a onClick="funprev9()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext9()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol10"><img src="Gallery/10.jpg" alt=""><a onClick="funprev10()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext10()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol11"><img src="Gallery/11.jpg" alt=""><a onClick="funprev11()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext11()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol12"><img src="Gallery/12.jpg" alt=""><a onClick="funprev12()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext12()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol13"><img src="Gallery/13.jpg" alt=""><a onClick="funprev13()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext13()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol14"><img src="Gallery/14.jpg" alt=""><a onClick="funprev14()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext14()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol15"><img src="Gallery/15.jpg" alt=""><a onClick="funprev15()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext15()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol16"><img src="Gallery/16.jpg" alt=""><a onClick="funprev16()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext16()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol17"><img src="Gallery/17.jpg" alt=""><a onClick="funprev17()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext17()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol18"><img src="Gallery/18.jpg" alt=""><a onClick="funprev18()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext18()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol19"><img src="Gallery/19.jpg" alt=""><a onClick="funprev19()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext19()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol20"><img src="Gallery/20.jpg" alt=""><a onClick="funprev20()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext20()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol21"><img src="Gallery/21.jpg" alt=""><a onClick="funprev21()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext21()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol22"><img src="Gallery/22.jpg" alt=""><a onClick="funprev22()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext22()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol23"><img src="Gallery/23.jpg" alt=""><a onClick="funprev23()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext23()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol24"><img src="Gallery/24.jpg" alt=""><a onClick="funprev24()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext24()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol25"><img src="Gallery/25.jpg" alt=""><a onClick="funprev25()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext25()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol26"><img src="Gallery/26.jpg" alt=""><a onClick="funprev26()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext26()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol27"><img src="Gallery/27.jpg" alt=""><a onClick="funprev27()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext27()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
-<div class="g_gal_bol g_gal_bol28"><img src="Gallery/28.jpg" alt=""><a onClick="funprev28()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+
+
+
+
 
 
 	
@@ -188,9 +231,9 @@
 	<div><a class="gsert2" onclick="fun12()"><div><div class="about"><br><br><br><br><br></div></div></a></div>	
 	</div>
 
-<inp class="nvid1" onClick="inv2()"><p><img src="button/more.svg" alt=""></p></inp>
+<inp class="nvid1 nvid1_1" onClick="inv2_1()"><p><img src="button/more.svg" alt=""></p></inp>
 		
-	<div class="nvid">	
+	<div class="nvid nvid_1">	
 <div><a class="gsert2"  onclick="fun13()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
 <div><a class="gsert2"  onclick="fun14()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
 <div><a class="gsert2"  onclick="fun15()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
@@ -203,14 +246,109 @@
 <div><a class="gsert2"  onclick="fun22()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
 <div><a class="gsert2"  onclick="fun23()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
 <div><a class="gsert2"  onclick="fun24()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
-<div><a class="gsert2"  onclick="fun25()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
-<div><a class="gsert2"  onclick="fun26()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
-<div><a class="gsert2"  onclick="fun27()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
-<div><a class="gsert2"  onclick="fun28()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
 
 </div>	
 		
-<inp class="nvid2" onClick="inv()"><p><img src="button/less.svg" alt=""></p></inp>
+<inp class="nvid2 nvid2_1" onClick="inv_1()"><p><img src="button/less.svg" alt=""></p></inp>
+		
+</gar>
+        </div>
+		
+		
+		
+		
+		
+		<div class="slide_3 slide_3_2">
+	<div class="heading"><p>Двойные комплексы</p>
+	</div>
+	
+
+<div class="g_gal_bol g_gal_bol2_1"><img src="Gallery/2/01.jpg" alt=""><a onClick="funnext2_1()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_2"><img src="Gallery/2/02.jpg" alt=""><a onClick="funprev2_2()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_2()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_3"><img src="Gallery/2/03.jpg" alt=""><a onClick="funprev2_3()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_3()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_4"><img src="Gallery/2/04.jpg" alt=""><a onClick="funprev2_4()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_4()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_5"><img src="Gallery/2/05.jpg" alt=""><a onClick="funprev2_5()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_5()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_6"><img src="Gallery/2/06.jpg" alt=""><a onClick="funprev2_6()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_6()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_7"><img src="Gallery/2/07.jpg" alt=""><a onClick="funprev2_7()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_7()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_8"><img src="Gallery/2/08.jpg" alt=""><a onClick="funprev2_8()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_8()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_9"><img src="Gallery/2/09.jpg" alt=""><a onClick="funprev2_9()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_9()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_10"><img src="Gallery/2/10.jpg" alt=""><a onClick="funprev2_10()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_10()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_11"><img src="Gallery/2/11.jpg" alt=""><a onClick="funprev2_11()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_11()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_12"><img src="Gallery/2/12.jpg" alt=""><a onClick="funprev2_12()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_12()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_13"><img src="Gallery/2/13.jpg" alt=""><a onClick="funprev2_13()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_13()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_14"><img src="Gallery/2/14.jpg" alt=""><a onClick="funprev2_14()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_14()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_15"><img src="Gallery/2/15.jpg" alt=""><a onClick="funprev2_15()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_15()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_16"><img src="Gallery/2/16.jpg" alt=""><a onClick="funprev2_16()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_16()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_17"><img src="Gallery/2/17.jpg" alt=""><a onClick="funprev2_17()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_17()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_18"><img src="Gallery/2/18.jpg" alt=""><a onClick="funprev2_18()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_18()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_19"><img src="Gallery/2/19.jpg" alt=""><a onClick="funprev2_19()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_19()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_20"><img src="Gallery/2/20.jpg" alt=""><a onClick="funprev2_20()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_20()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_21"><img src="Gallery/2/21.jpg" alt=""><a onClick="funprev2_21()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_21()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_22"><img src="Gallery/2/22.jpg" alt=""><a onClick="funprev2_22()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_22()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_23"><img src="Gallery/2/23.jpg" alt=""><a onClick="funprev2_23()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_23()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_24"><img src="Gallery/2/24.jpg" alt=""><a onClick="funprev2_24()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_24()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_25"><img src="Gallery/2/25.jpg" alt=""><a onClick="funprev2_25()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_25()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_26"><img src="Gallery/2/26.jpg" alt=""><a onClick="funprev2_26()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_26()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_27"><img src="Gallery/2/27.jpg" alt=""><a onClick="funprev2_27()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funnext2_27()" class="cssbox_next"><img src="button/next.svg"  style=" width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+<div class="g_gal_bol g_gal_bol2_28"><img src="Gallery/2/28.jpg" alt=""><a onClick="funprev2_28()" class="cssbox_prev"><img src="button/next.svg" style="transform:rotate(180deg); width: 7vh" alt="#"></a><a onClick="funclose()" class="cssbox_close"><img src="button/close.svg"  style=" width: 4.5vh" alt="#"></a></div>
+
+
+
+
+
+
+
+
+
+	
+	
+
+	
+	
+	
+	
+	<gar id="gar02">
+	
+	<div class="vid">
+	
+<div><a class="gsert2" onclick="fun2_1()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_2()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_3()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_4()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_5()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_6()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_7()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_8()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_9()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_10()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_11()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_12()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+
+	</div>
+<inp class="nvid1 nvid1_2" onClick="inv2_2()"><p><img src="button/more.svg" alt=""></p></inp>
+		
+	<div class="nvid nvid_2">	
+<div><a class="gsert2" onclick="fun2_13()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_14()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_15()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_16()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_17()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_18()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_19()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_20()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_21()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_22()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_23()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_24()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_25()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_26()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_27()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+<div><a class="gsert2" onclick="fun2_28()"><div><div class="about"><br><br><br><br><br></div></div></a></div>
+
+
+</div>	
+		
+<inp class="nvid2 nvid2_2" onClick="inv_2()"><p><img src="button/less.svg" alt=""></p></inp>
 		
 </gar>
         </div>
@@ -221,35 +359,35 @@
 <div class="in_slide_4">
 	
     <div class="in_in_slide_4">
-    <div class="h1">Напшите нам</div>
+    <div class="h1"><p>Напшите нам</p></div>
     <div class="about2">
 		<br><br>
-		<a href="mailto:dwkeuropeanstyle@gmail.com"><strong>Mail:</strong></a><br>
-		dwkeuropeanstyle@gmail.com
+		<a href="mailto:stepayy23@mail.ru"><strong class="dop"><p>Почта:</p></strong></a><br>
+		<span>stepayy23</span>@mail.ru
 		<br><br>
-		<a href="https://www.facebook.com/DWK-European-Style-111288058173691/"><strong>Facebook:</strong></a><br>
-		DWK European Style
+		<a href="https://www.facebook.com/DWK-European-Style-111288058173691/"><strong class="dop"><p>Facebook:</p></strong></a><br>
+		PANGRAN
 		<br><br>
-		<a href="https://www.instagram.com/dwk_doors_windows_kitchen/"><strong>Instagram:</strong></a><br> DWK doors windows kitchen
+		<a href="https://www.instagram.com/dwk_doors_windows_kitchen/"><strong class="dop"><p>Instagram:</p></strong></a><br> PANGRAN
 		
 		
 		</div>
     </div>
 	
     <div class="in_in_slide_4">
-    <div class="h1">Позвоните нам</div>
+    <div class="h1"><p>Позвоните нам</p></div>
 		<div class="about2">
     	<br><br>
-		<a href="tel:+375292222759"><strong>Телефон:</strong></a>
+		<a href="tel:+375292222759"><strong class="dop"><p>Телефоны:</p></strong></a>
 		<br>
 		+375 29 2222 759
 		</div>
     </div>
     <div class="in_in_slide_4">
-    <div class="h1">Посетите наш офис</div>
+    <div class="h1"><p>Наш офис</p></div>
     <div class="about2">
     	<br><br>
-		<a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.google.com%2Fmaps%2Fdir%2F%3Fapi%3D1%26destination%3D40.21183%252C-75.09845%26fbclid%3DIwAR14weQaOYsbKJuIom1rpOX_Dp0Fo--LH-AkLUQW73HUwWxMpQdvBK0oAcg&h=AT01cT1-cJM8T-SMT4RH1Z3LpvUF4skuk6Ffji75jKFw3GF-q5bNXixHtfVDv5umVXz2f9JwolOEl6-qmu2_CMj4lnVA-C78H_mbHqJ5zNkg_SncBOy6Hykvd_vKGuJbbNasFw"><strong>Адрес:</strong></a>
+		<a href="https://yandex.by/maps/-/CCUNUBeWwD"><strong class="dop"><p>Адрес:</p></strong></a>
 		<br>
 		г. ГРОДНО ул. Красноармейская 75
 		</div>
@@ -257,7 +395,16 @@
     </div>
 </div></div>
         <div class="none" id="for_script"></div>
-        
+    <script>
+    window.onload = function () {
+      document.body.classList.add('loaded_hiding');
+      window.setTimeout(function () {
+        document.body.classList.add('loaded');
+        document.body.classList.remove('loaded_hiding');
+	document.body.style.overflow = 'auto';
+      }, 500);
+    }
+  </script>
 
 </body>
 </html>
