@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #000;
+  background-color: transparent;
+  text-decoration: none;
+
+
+  /* и другие свойства */
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+
+
+body
+{
+	background-color: dimgray;
+
+
+
+}
+
+.logo 
+{
+
+
+	width: 5vw;
+	height: 5vh;
+	position: absolute;
+	left: 5%;
+	top: 5%;
+}
+
+h1
+{
+
+	height: 30vh;
+	
+	background: linear-gradient(to right, #002137, #505050);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+	font-size: 8em;
+	text-align:center;
+	margin-top: 25vh;
+}
+.content p
+{
+
+
+  color: #002137;
+  font-size: 1em;	
+	margin: 0 20vw;
+	text-align: justify;
+  text-align-last: left;
+	margin-bottom: 20vh;
+	flex: 1;
+}
+.content img
+{
+	width: 50vw;
+	flex: 1;
+}
+.slide2
+{
+	display: flex;
+	background: #FFFFFF;
+}
+.slide2 p
+{
+	width: 100%;
+	margin: 5vw;
+
+}
+.slide2 span
+{
+	font-size: 3em;
+
+}
+.slide3
+{
+	
+	background: dimgray;
+}
